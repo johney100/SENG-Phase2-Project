@@ -1,0 +1,53 @@
+{
+    "showData": [
+        {
+            "id": 1,
+            "image": "https://static.tvmaze.com/uploads/images/medium_portrait/31/78286.jpg",
+            "name": "Girls",
+            "network": "HBO",
+            "summary": "This Emmy winning series is a comic look at the assorted humiliations and rare triumphs of a group of girls in their 20s."
+        },
+
+        {
+            "id": 2,
+            "image": "https://static.tvmaze.com/uploads/images/medium_portrait/429/1074022.jpg",
+            "name": "Yellowstone",
+            "network": "Paramount",
+            "summary": "Yellowstone follows the Dutton family, led by John Dutton, who controls the largest contiguous ranch in the United States, under constant attack by those it borders — land developers, an Indian reservation, and America's first National Park. It is an intense study of a violent world far from media scrutiny — where land grabs make developers billions, and politicians are bought and sold by the world's largest oil and lumber corporations. Where drinking water poisoned by fracking wells and unsolved murders are not news: they are a consequence of living in the new frontier. It is the best and worst of America seen through the eyes of a family that represents both."
+            
+        },
+
+        {
+            "id": 3,
+            "image": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11341.jpg",
+            "name": "The Sopranos",
+            "network": "HBO",
+            "summary": "The Sopranoswriter-producer-director David Chase's extraordinary television series, is nominally an urban gangster drama, but its true impact strikes closer to home: Like 1999's other screen touchstone, American Beauty, the HBO series chronicles a dysfunctional, suburban American family in bold relief. And for protagonist Tony Soprano, there's the added complexity posed by heading twin families, his collegial mob clan and his own, nouveau riche brood."
+
+        },
+
+        {
+
+            "id": 4,
+            "image": "https://static.tvmaze.com/uploads/images/medium_portrait/476/1192162.jpg",
+            "name": "The Simpsons",
+            "network": "FOX",
+            "summary": "The Simpsons is the longest running scripted show in US television history. It captures the adventures of Homer, Marge, Maggie, Bart and Lisa who are living in a fictional town called Springfield."
+    
+        },
+
+        {
+            "id": 5,
+            "image": "https://static.tvmaze.com/uploads/images/medium_portrait/41/104565.jpg",
+            "name": "Friends",
+            "network": "NBC",
+            "summary": "Six young (20-something) people from New York City (Manhattan), on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life. This average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend."
+    
+        
+        }
+
+
+
+    ]
+
+}
