@@ -5,7 +5,7 @@ import Home from './Home';
 import NavBar from './NavBar';
 import AddShow from './AddShow';
 import TextBlock from './TextBlock';
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {BrowserRouter, Routes, Route, Link,} from "react-router-dom";
 
 
