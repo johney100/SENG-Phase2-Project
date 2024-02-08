@@ -1,11 +1,11 @@
-
+import StarShow from "./StarShow";
 
 function ShowCard(){
 
     return (
         <div> 
-        <p>show data component</p> 
-
+        <p>This is the Show Card</p> 
+        <StarShow />
         </div>
        );
 }

@@ -1,13 +1,30 @@
 
 import './App.css';
 import ShowCard from './ShowCard';
+import Home from './Home';
+import NavBar from './NavBar';
+import AddShow from './AddShow';
+import TextBlock from './TextBlock';
+import React, { useState } from "react";
+import {BrowserRouter, Routes, Route, Link,} from "react-router-dom";
+
+
+
+
 
 function App() {
+  const [page, setPage] = useState("/")
+
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-      <ShowCard />
+      <NavBar onChangePage={setPage}/>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/addshow" element={<AddShow />}/>
+        <Route path="/shows" element={<ShowCard />}/>
+        <Route path="/home" element={<Home />}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
