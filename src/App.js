@@ -13,16 +13,16 @@ import {BrowserRouter, Routes, Route, Link,} from "react-router-dom";
 
 
 function App() {
-  const [page, setPage] = useState("/")
+  //const [page, setPage] = useState("/")
 
   return (
     <div className="App">
       
       <BrowserRouter>
-      <NavBar onChangePage={setPage}/>
+      <NavBar />
       <Routes>
         <Route path="/addshow" element={<AddShow />}/>
-        <Route path="/shows" element={<ShowCard />}/>
+        <Route path="/shows" element={<ShowCard />} />
         <Route path="/" element={<Home />}/>
         </Routes>
       </BrowserRouter>
