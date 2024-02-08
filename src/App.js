@@ -17,12 +17,13 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar onChangePage={setPage}/>
+      
       <BrowserRouter>
+      <NavBar onChangePage={setPage}/>
       <Routes>
         <Route path="/addshow" element={<AddShow />}/>
         <Route path="/shows" element={<ShowCard />}/>
-        <Route path="/home" element={<Home />}/>
+        <Route path="/" element={<Home />}/>
         </Routes>
       </BrowserRouter>
     </div>
