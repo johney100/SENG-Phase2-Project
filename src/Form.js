@@ -43,7 +43,7 @@ function Form() {
         />
          <input
           type="text"
-          placeholder="Show Name"
+          placeholder="Show"
           id="name"
           value={formData.name}
           onChange={handleChange}
