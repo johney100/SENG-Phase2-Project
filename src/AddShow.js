@@ -1,17 +1,16 @@
-
+import Form from "./Form";
 
 function AddShow(){
-
+    
     return(
         <div>
-
-        <h3>This is how you add a show</h3>
-        <form id="form">
-            <input type="text" placeholder="placeholder"></input>
-        </form>
-
+    
+            <p>some text</p>
+            <Form />
+            
         </div>
     )
 }
 
 export default AddShow;
+
