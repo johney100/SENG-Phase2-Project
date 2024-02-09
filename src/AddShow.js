@@ -5,7 +5,7 @@ function AddShow(){
     return(
         <div>
     
-            <p>some text</p>
+            <h1>Add a new show</h1>
             <Form />
             
         </div>
