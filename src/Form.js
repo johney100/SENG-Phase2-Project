@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-function Form() {
+function Form({addShows}) {
     const [formData, setFormData] = useState({
       image: "",
       name: ""
     });
   
-    
+  
     
     function handleChange(event) {
       setFormData({
@@ -22,7 +22,10 @@ function Form() {
             "Content-Type": "application/json",
           },
           body: JSON.stringify(formData),
-        });
+         
+        })
+        .then(r => r.json())
+        .then(data => addShows(data))
       }
     
     return (
