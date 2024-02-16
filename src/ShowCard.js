@@ -4,14 +4,14 @@ import StarShow from "./StarShow";
 function ShowCard(){
     const [showData, setShowData] = useState([]);
   
-
+    
     useEffect(() => {
          fetch("http://localhost:3000/showData")
         .then(r => r.json())
         .then(showData => setShowData(showData))
         }, [])
 
-
+        console.log(showData);
     return (
         <div> 
         <h2>This is the Show Card</h2> 

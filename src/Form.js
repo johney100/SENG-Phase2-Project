@@ -2,12 +2,12 @@ import React, { useState } from "react";
 
 function Form() {
     const [formData, setFormData] = useState({
-      id: "",
       image: "",
       name: ""
     });
   
-    //since the id values are the same as the keys in formData, we can write an abstract setFormData here
+    
+    
     function handleChange(event) {
       setFormData({
         ...formData,
@@ -27,13 +27,6 @@ function Form() {
     
     return (
       <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Enter Show ID"
-          id="id"
-          value={formData.id}
-          onChange={handleChange}
-        />
         <input
           type="text"
           placeholder="Add an Image URL"
