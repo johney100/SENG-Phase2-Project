@@ -1,18 +1,16 @@
 
 
-function ShowCard({showData}){
+function ShowCard({image}, {name}){
 
     return(
-    
-    <ul>
-        {showData.map(show => (
-            <li key={show.id}>
-                <img src={show.image} alt={show.name} />
-                <h3> Show: {show.name}</h3>
-            </li>
-        ))}
-    </ul>
+    <div>
    
+   
+            <li>
+                <img src={image} alt={name} />
+                <h3> Show: {name}</h3>
+            </li>
+    </div>
     );
 }
 
