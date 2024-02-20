@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// Component responsible for handling show submission
 function Form({addShows}) {
     const [formData, setFormData] = useState({
       image: "",
@@ -7,13 +8,15 @@ function Form({addShows}) {
     });
   
   
-    
+    // Function to update the state using the setter function
     function handleChange(event) {
       setFormData({
         ...formData,
         [event.target.id]: event.target.value,
       });
     }
+
+    // Function to take form data and update the server (db.json in this case) using a POST request
     function handleSubmit(event) {
         event.preventDefault();
         fetch("http://localhost:3000/showData", {
@@ -28,6 +31,7 @@ function Form({addShows}) {
         .then(data => addShows(data))
       }
     
+      // Renders the form with inputs and submit button
     return (
       <form onSubmit={handleSubmit}>
         <input

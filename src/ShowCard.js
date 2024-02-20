@@ -1,7 +1,9 @@
 
+// Displaying individual show information
 
 function ShowCard({image}, {name}){
-
+  
+    // Uses props passed from ShowContainer const mappedShows as attributes to display in the list below
     return(
     <div>
    
